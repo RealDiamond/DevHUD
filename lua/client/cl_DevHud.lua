@@ -54,7 +54,7 @@ function DevHud()
 	local DevPur  	= Color( 140,0,255,120 )
 	------------------------------------------------------------------------
 	draw.RoundedBox( 0, 4, ScrH() - 35, 540, 28, DevBlack2 ) 	        /*Dev:Hud*/
-	draw.RoundedBox( 0, 4, ScrH() - 68, 325, 28, DevBlack2 )		/*Dev:HudTime*/
+	draw.RoundedBox( 0, 4, ScrH() - 68, 330, 28, DevBlack2 )		/*Dev:HudTime*/
 	draw.RoundedBox( 0, 4, ScrH() - 100, 250, 28, DevBlack2 )		/*Dev:Nick*/
 	------------------------------------------------------------------------
 	draw.RoundedBox( 0, 4, ScrH() - 35, 540, 1, DevWhite )
@@ -65,11 +65,11 @@ function DevHud()
 	draw.RoundedBox( 0, 255, ScrH() - 35, 2, 28, DevWhite )
 	draw.RoundedBox( 0, 544, ScrH() - 35, 1, 28, DevWhite )
 	------------------------------------------------------------------------
-	draw.RoundedBox( 0, 4, ScrH() - 68, 325, 1, DevWhite )
-	draw.RoundedBox( 0, 4, ScrH() - 41, 325, 1, DevWhite )
+	draw.RoundedBox( 0, 4, ScrH() - 68, 330, 1, DevWhite )
+	draw.RoundedBox( 0, 4, ScrH() - 41, 330, 1, DevWhite )
 	draw.RoundedBox( 0, 4, ScrH() - 68, 1, 28, DevWhite )
 	draw.RoundedBox( 0, 125, ScrH() - 68, 2, 28, DevWhite )
-	draw.RoundedBox( 0, 329, ScrH() - 68, 1, 28, DevWhite )
+	draw.RoundedBox( 0, 334, ScrH() - 68, 1, 28, DevWhite )
 	------------------------------------------------------------------------
 	draw.RoundedBox( 0, 4, ScrH() - 100, 250, 1, DevWhite )
 	draw.RoundedBox( 0, 4, ScrH() - 72, 250, 1, DevWhite )
