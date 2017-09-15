@@ -110,13 +110,13 @@ function DevHud1()
 		surface.SetDrawColor( 255,255,255  )
 		surface.DrawTexturedRect(265,929.50, 20, 18 )
 	-----------------------------------------------------------------------
-		local ourMat4 = Material( "materials/clock.png" )
-		surface.SetMaterial( ourMat4 )
+		local ourMat5 = Material( "materials/clock.png" )
+		surface.SetMaterial( ourMat5 )
 		surface.SetDrawColor( 255,255,255  )
 		surface.DrawTexturedRect(10,898.50, 20, 18 )
 	-----------------------------------------------------------------------
-		local ourMat4 = Material( "materials/office-worker2.png" )
-		surface.SetMaterial( ourMat4 )
+		local ourMat6 = Material( "materials/office-worker2.png" )
+		surface.SetMaterial( ourMat6 )
 		surface.SetDrawColor( 255,255,255  )
 		surface.DrawTexturedRect(10,865.50, 20, 18 )
 end
